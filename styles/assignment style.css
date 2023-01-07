@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    display: block;
+}
+.banner-container{
+background-image: url(../images/banner/banner2.png);
+background-size: cover;
+}
+.banner-element{
+
+}
+.banner-title{
+
+}
