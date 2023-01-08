@@ -1,17 +1,37 @@
-*{
+* {
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
-body{
-    display: block;
+
+.banner-container {
+    background-image: url(../images/banner/banner2.png);
+    width: 100%;
+    height: 125vh;
 }
-.banner-container{
-background-image: url(../images/banner/banner2.png);
-background-size: cover;
-}
-.banner-element{
+
+.banner-elements {
+    text-align: right;
+    padding: 210px 230px;
 
 }
-.banner-title{
 
+.title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+}
+.description{
+    margin-top: 24px;
+}
+.btn-primary{
+    font-weight: 600;
+font-size: 20px;
+text-align: right;
+color: #FFFFFF;
+background: #F15B22;
+border: none;
+border-radius: 5px;
+margin-top: 32px;
+text-decoration: none;
+display: inline-block;
 }
