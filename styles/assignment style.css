@@ -86,10 +86,11 @@
     margin-top: 45px;
     display: flex;
     gap: 86px;
-    
-    
+
+
 }
- .container-item{
+
+.container-item {
     justify-content: space-around;
     padding: 0 50px;
 
@@ -100,10 +101,11 @@
     font-size: 30px;
     color: #151414;
 }
-.container-description{
+
+.container-description {
     color: #737272;
     font-weight: 500;
-font-size: 25px;
+    font-size: 25px;
 }
 
 
@@ -136,4 +138,66 @@ font-size: 25px;
     border: none;
     border-radius: 7px;
     margin: 0 120px;
+}
+
+/* contact styles */
+
+/* left footer   */
+.contact{
+    display: flex;
+    background-color: #151414;
+    height: 500px;
+    width: 100%;
+}
+.left-footer {
+    padding: 100px;
+}
+.contact-title{
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+    padding: 10px;
+}
+.contact-description{
+    color: white;
+    padding: 10px;
+}
+.social {
+    display: flex;
+    padding: 5px 0 0 0
+}
+.icon {
+    padding: 5px;
+}
+            /* right footer */
+.right-footer{
+    padding: 100px 150px;
+}
+.contact-subscribe-title{
+    color: white;
+    font-size: 25px;
+    padding: 5px 0;
+}
+.email{
+    height: 60px;
+    width: 300px;
+    margin-bottom: 15px;
+    color: #F3F3F3;
+    font-size: 18px;
+    text-indent: 15px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: #FFFFFF;
+    background-color: #151414;
+    border-style: solid;
+    margin-top: 30px;
+}
+.btn-subscribe{
+    font-size: 20px;
+    font-weight: 900;
+    color: #F15B22;
+    background-color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
 }
