@@ -3,10 +3,12 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+/* part 1 */
 .banner-container {
     background-image: url(../images/banner/banner2.png);
     width: 100%;
     height: 125vh;
+    background-repeat: no-repeat;
 }
 
 .banner-elements {
@@ -20,18 +22,118 @@
     font-size: 65px;
     color: #151414;
 }
-.description{
+
+.description {
     margin-top: 24px;
 }
-.btn-primary{
+
+.btn-primary {
     font-weight: 600;
-font-size: 20px;
-text-align: right;
-color: #FFFFFF;
-background: #F15B22;
-border: none;
-border-radius: 5px;
-margin-top: 32px;
-text-decoration: none;
-display: inline-block;
+    font-size: 20px;
+    text-align: right;
+    color: #FFFFFF;
+    background: #F15B22;
+    border: none;
+    border-radius: 5px;
+    margin-top: 32px;
+    text-decoration: none;
+    display: inline-block;
+    height: 60px;
+    padding: 5px 20px;
+}
+
+/* part 2 */
+.banner-2 {
+    display: flex;
+    padding-left: 100px;
+}
+
+.image {
+    padding: 130px 50px;
+}
+
+.banner-2-content {
+    margin-top: 360px;
+    margin-right: 100px;
+
+}
+
+.content-title {
+    font-weight: 700;
+    font-size: 60px;
+    color: #151414;
+}
+
+.content-description {
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+.list-item {
+    list-style: none;
+    text-indent: -40px;
+    margin-top: 16px;
+}
+
+
+/* part 3 */
+.second-banner {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.second-container {
+    margin-top: 45px;
+    display: flex;
+    gap: 86px;
+    
+    
+}
+ .container-item{
+    justify-content: space-around;
+    padding: 0 50px;
+
+}
+
+.container-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+.container-description{
+    color: #737272;
+    font-weight: 500;
+font-size: 25px;
+}
+
+
+/* Part 4 Lower Banner */
+.lower-banner {
+    background-image: url(../images/watch.png), url(../images/gradient1.png);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin: 130px;
+
+}
+
+.lower-title {
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 30px 120px;
+    padding-top: 55px;
+
+}
+
+.lower-button {
+    font-size: 20px;
+    font-weight: 900;
+    color: #005FAC;
+    background-color: white;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 7px;
+    margin: 0 120px;
 }
